@@ -5,14 +5,13 @@
 
 
 /*utilidades*/
-
 /*button*/
 @import "./utilidades/componentes.css";
-
 @import "./utilidades/cores.css";
 
 /*home*/
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
 
 /*bicicletas*/
 @import "./bicicletas/bicicletas-lista.css";
