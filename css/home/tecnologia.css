@@ -52,7 +52,7 @@
 
 @media (max-width:800px){
     .tecnologia-bg {
-        background-color: initial;
+        background-color: var(--cor-10);
     }
     .tecnologia {
         grid-template-columns: 1fr;
