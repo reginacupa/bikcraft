@@ -1,5 +1,5 @@
 .bicicletas-bg {
-    background-color: var(--cor-10);
+    background-image: linear-gradient(to right, var(--cor-w) 30%, var(--cor-10)0%);
 }
 
 .bicicletas {
@@ -74,3 +74,34 @@
     margin-right: 8px;
 }
 
+@media(max-width:800px) {
+    .bicicletas {  
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width:600px) {
+    .bicicletas-bg {
+        background-color: var(--cor-10);
+    }
+
+    .bicicletas-conteudo {
+        grid-template-columns: 1fr;
+    }
+
+    .bicicletas-conteudo ul {
+        font-size: 1rem;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 32px;
+        align-content: start;
+    }
+
+
+    .bicicletas a {
+        place-self: start;
+    }
+    
+}
