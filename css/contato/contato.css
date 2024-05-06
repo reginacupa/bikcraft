@@ -16,11 +16,13 @@
 .contato-dados {
     border-radius: 5px 0 0 5px;
     background: var(--cor-11);
+    background: url("../../img/dec/bottom-left.svg") no-repeat botton 20px left 20px;
 }
 
 .contato-formulario {
     border-radius: 0 5px 5px 0;
     background: var(--cor-w);
+    background: url("../../img/dec/bottom-right.svg") no-repeat botton 20px right 20px; 
 }
 
 .contato-dados h2 {
@@ -50,6 +52,7 @@
 
 .contato-meios a:first-child {
     background: url("../../img/icones/email.svg") no-repeat 0px 2px;
+
 }
 
 .contato-meios a:nth-child(2) {
